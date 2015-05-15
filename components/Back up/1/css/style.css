@@ -1,0 +1,116 @@
+body {
+  background: #FBFBFB;
+  font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 11px;
+  color: #707070;
+}
+.showme {
+  display: block;
+}
+.showcase {
+  position: relative;
+  margin: auto;
+}
+.home-main {
+  width: 870px;
+  margin: 20px 45px 30px;
+  position: relative;
+}
+.banner-rotator {
+  background: url(images/ajax-loader.gif) center center no-repeat #eee;
+  width: 870px;
+  height: 305px;
+}
+.panes div {
+  width: 718px;
+  height: 305px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+a:link, a:visited {
+  color: #095490;
+}
+a:link, a:visited {
+  text-decoration: none;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  text-decoration: underline;
+  cursor: auto;
+}
+.home-main img {
+  border: none;
+}
+img {
+  border: 0;
+}
+a:link, a:visited {
+  color: #095490;
+}
+.rotator-navmenu {
+  width: 152px;
+  height: 305px;
+  padding: 0;
+  margin: 0;
+  top: 0px;
+  left: 718px;
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+}
+div {
+  display: block;
+}
+.tabs {
+  width: 152px;
+  height: 300px;
+  padding-top: 3px;
+  position: relative;
+}
+ul, ol {
+  list-style: none;
+}
+body, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+ul.tabs li {
+  display: block !important;
+  outline: none;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+ul, ol {
+  list-style: none;
+}
+ul.tabs a {
+  background: url(http://www.gamestop.com/gs/pages/storefront/home/devprod/img/menuitems_hover.png) 0 60px;
+  width: 120px;
+  height: 64px;
+  padding: 6px 16px 0 16px;
+  margin-bottom: 5px;
+  display: block !important;
+  text-align: center;
+  text-decoration: none !important;
+  outline: none;
+}
+ul.tabs li .thb {
+  width: 120px;
+  height: 51px;
+}
+.home-main img {
+  border: none;
+}
+img {
+  border: 0;
+}
+ul.tabs div {
+  margin-top: 2px;
+  font-family: "helvetica", "arial", "sans-serif";
+  font-weight: normal;
+}

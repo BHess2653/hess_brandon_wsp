@@ -1,0 +1,359 @@
+body {
+  font-family: Tahoma, Verdana, Arial, Sans-Serif;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.15) inset;
+  min-height: 100%;
+  position: relative;
+  color: rgb(30, 36, 43);
+  background: url("https://www.bungie.net/img/theme/bungienet/bgs/bg_globe.jpg") fixed center top repeat-x #384c6b;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.cf {
+  -ms-zoom: 1;
+  zoom: 1;
+}
+div {
+  display: block;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container_out {
+  width: 960px;
+  border: 14px solid rgba(0,0,0,.15);
+  margin: 0 auto;
+  clear: both;
+}
+.Community .container_out, .Groups .container_out, .MyCommunity .container_out, .GroupSearch .container_out, .Bungie .container_out, .Blog .container_out, .Edit .container_out, .Search .container_out {
+  border-top: 0;
+  position: relative;
+}
+body.compact .Sub_Nav, body.NoSidebar .Sub_Nav, body.ClosedSidebar .Sub_Nav {
+  width: 100%;
+}
+.Sub_Nav {
+  position: fixed;
+  z-index: 50;
+  top: 54px;
+  left: 60px;
+  height: 50px;
+  width: 100%;
+  max-width: calc(100% - 54px);
+  min-width: 969px;
+  overflow: visible;
+  white-space: nowrap;
+  background: rgba(23,30,36,0.45);
+  -webkit-backface-visibility: hidden;
+  transition: 0.5s ease;
+}
+.nav_sub {
+  height: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: calc(100% - 255px);
+  text-align: center;
+}
+.compact .nav_sub, .NoSidebar .nav_sub {
+  width: 100%;
+}
+.nav_sub li {
+  display: inline-block;
+  list-style: none;
+}
+.nav_sub .header a {
+  color: #0096db;
+  background: rgba(0,0,0,.5);
+}
+.nav_sub > a, .nav_sub li a {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 18px;
+  line-height: 50px;
+  height: 50px;
+  position: relative;
+  opacity: 0.6;
+  transition: 0.25s ease;
+}
+.Sub_Nav > a, .Sub_Nav li a {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 54px;
+  height: 54px;
+  padding: 0 20px;
+  color: #FFF;
+  font-size: 14px;
+  text-decoration: none;
+}
+.nav_sub .on a:after {
+  content: "";
+  background: url("https://www.bungie.net/img/theme/bungienet/bgs/point_subnav_on.png") no-repeat;
+  width: 11px;
+  height: 6px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -5.5px;
+}
+.nav_sub .preorder {
+  position: absolute;
+  right: 21px;
+  top: 0;
+}
+.nav_sub li {
+  display: inline-block;
+  list-style: none;
+}
+.nav_sub .btn_preorder {
+  width: auto;
+  height: 54px;
+  display: inline-block;
+  background: url("https://www.bungie.net/img/theme/bungienet/btns/btn_preorder.png") no-repeat center center;
+  background-size: 100% 41px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 54px;
+  text-transform: uppercase;
+  padding: 0 27px 0 11px;
+  opacity: 1;
+}
+.nav_sub > a, .nav_sub li a {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 18px;
+  line-height: 50px;
+  height: 50px;
+  position: relative;
+  opacity: 0.6;
+  transition: 0.25s ease;
+}
+.Sub_Nav > a, .Sub_Nav li a {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 54px;
+  height: 54px;
+  padding: 0 20px;
+  color: #FFF;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.container_news {
+  background: #f5f5f5;
+  min-height: 600px;
+}
+.spotlight_news {
+}
+.Blog .btn_rss {
+  background: url("https://www.bungie.net/img/theme/destiny/btns/btn_rss.gif") no-repeat scroll 0 0 transparent;
+  bottom: -23px;
+  display: block;
+  height: 19px;
+  left: 15px;
+  position: relative;
+  width: 50px;
+  clear: both;
+  z-index: 2;
+}
+.ir {
+  text-indent: -9999px;
+  overflow: hidden;
+  display: inline-block;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+  color: #0096db;
+}
+.newsFeed {
+  padding: 28px 15px 0;
+  background: url("https://www.bungie.net/img/theme/destiny/bgs/bg_hashes_news.png") repeat-x center top;
+  clear: both;
+}
+.newsFeed li:first-child {
+  padding-top: 21px;
+}
+.newsFeed li {
+  list-style: none;
+}
+.cf {
+  -ms-zoom: 1;
+  zoom: 1;
+}
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+.newsArticle {
+  border-bottom: 1px solid #E1E1E1;
+  height: 115px;
+  list-style: none outside none;
+  overflow: visible;
+  padding: 30px 0;
+  position: relative;
+  width: 404px;
+}
+article {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a {
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+  color: #0096db;
+}
+.newsArticle .date.block {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+  height: 104px;
+  left: 0;
+  padding: 7px;
+  position: absolute;
+  top: auto;
+  width: 32px;
+  z-index: 1;
+}
+.date.block {
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+.date.block .day {
+  font-weight: 700;
+  font-size: 24px;
+  display: block;
+  line-height: 24px;
+}
+.date.block .month {
+  display: block;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.date.block .year {
+  font-size: 11px;
+  display: block;
+}
+.date.block .time {
+  font-size: 10px;
+  display: block;
+}
+.newsArticle .thumb {
+  display: block;
+  height: 118px;
+  left: 46px;
+  position: absolute;
+  top: 30px;
+  width: 235px;
+}
+.newsArticle .thumb img {
+  width: 235px;
+  height: 118px;
+}
+img {
+  max-width: 100%;
+}
+fieldset, img {
+  border: 0;
+}
+.newsArticle .content_fh {
+  font-size: 14px;
+  line-height: 23px;
+  color: #333;
+  overflow: hidden;
+  position: absolute;
+  left: 301px;
+  width: 457px;
+  height: 115px;
+}
+.newsArticle .title {
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-weight: 500;
+}
+.newsArticle .title a {
+  font-size: 26px;
+  color: #000;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+a {
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+  color: #0096db;
+}
+.newsArticle .mobile.info {
+  display: none;
+}
+.newsArticle .mobile.comments {
+  display: none;
+}
+.Blog .pager_prevnext {
+  margin-top: 10px;
+}
+.pager_prevnext {
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+  clear: both;
+  font-size: 12px;
+  line-height: 40px;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  padding: 0 22px;
+}
+.pager_prevnext .btn_prev {
+  float: left;
+}
+.pager_prevnext a {
+}
+.hide {
+  display: none !important;
+}
+a {
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+  color: #0096db;
+}
+.pager_prevnext span {
+  color: #777;
+}
+.pager_prevnext a {
+}
+a {
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+  color: #0096db;
+}
+.pager_prevnext .btn_next {
+  float: right;
+}
+.pager_prevnext a {
+}
+a {
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+  color: #0096db;
+}
+
+

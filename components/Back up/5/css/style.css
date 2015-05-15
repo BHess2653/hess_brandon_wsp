@@ -1,0 +1,82 @@
+body {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #636468;
+  font-family: 'Segoe UI', Arial, Sans-Serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+Style Attribute {
+  visibility: visible;
+}
+div#BodyContent {
+  zoom: 1;
+  min-height: 600px;
+}
+div {
+  display: block;
+}
+.rotator {
+  min-width: 960px;
+  max-width: 1920px;
+  min-height: 384px;
+  max-height: 768px;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.rotatorControl {
+  position: absolute;
+  z-index: 25;
+}
+.prevButton {
+  left: 0px;
+  top: 0px;
+  width: 60px;
+  height: 100%;
+  background-image: url('../Images/arrow_left.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.nextButton {
+  right: 0px;
+  top: 0px;
+  width: 60px;
+  height: 100%;
+  background-image: url('../Images/arrow_right.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.sizer {
+  width: 100%;
+}
+img {
+  max-width: 100%;
+}
+.rotator img {
+  width: 100%;
+}
+.slide {
+  width: 100%;
+  position: absolute !important;
+  left: 100%;
+  top: 0;
+}
+.first {
+  left: 0px;
+}
+a, a:visited {
+  color: #77BB44;
+  font-weight: bold;
+  text-decoration: none;
+}
+a img {
+  border: none;
+  border-collapse: collapse;
+}
