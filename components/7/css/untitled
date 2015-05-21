@@ -242,11 +242,11 @@
             </li>
         </ul>
 
-<!--          <div class="pager_prevnext block">
+         <div class="pager_prevnext block">
             <a class="btn_prev hide" href="/en/News?cat=all&amp;creationDate=0&amp;page=0">Previous</a>
             <span class="currentPage">Page <span id="beforeCurrentPage"></span> <span id="currentTopicPage" data-page="1">1</span> <span id="afterCurrentPage"><a class="btn_direct" data-page="2">2</a> <a class="btn_direct" data-page="3">3</a> <a class="btn_direct" data-page="4">4</a> <a class="btn_direct" data-page="5">5</a> <a class="btn_direct" data-page="6">6</a> <a class="btn_direct" data-page="7">7</a> </span></span>
             <a class="btn_next" href="/en/News?cat=all&amp;creationDate=0&amp;page=2">Next</a>
-         </div> -->
+         </div>
     </div>
 <!-- </div> -->
 

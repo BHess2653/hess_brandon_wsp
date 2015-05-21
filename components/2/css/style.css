@@ -1,46 +1,35 @@
-body {
-  background: #FBFBFB;
-  font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
-  font-size: 11px;
-  color: #707070;
-}
+
 section {
   display: block;
-}
-#sa {
   margin: 0 0 20px 42px;
   width: 886px;
 }
 h2 {
-  display: block;
-  font-size: 1.5em;
   -webkit-margin-before: 0.83em;
   -webkit-margin-after: 0.83em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
-  font-weight: bold;
 }
 body, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, dl, dt, dd {
   margin: 0;
   padding: 0;
 }
-#sa h2 {
+section h2 {
+  font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+  display: block;
   margin-bottom: 6px;
-  color: #464646;
+  color: #707070;
   font-size: 24px;
   font-weight: bold;
 }
-h2 {
-  font-weight: bold;
-}
-.sarow {
+ul {
   margin: 0;
   padding: 0;
 }
 ul, ol {
   list-style: none;
 }
-.sarow li {
+ul li {
   margin: 2px;
   background: #eee;
   float: left;
@@ -50,7 +39,7 @@ li {
   display: list-item;
   text-align: -webkit-match-parent;
 }
-.sarow li a {
+ul li a {
   padding: 0 0 5px;
   color: #095490;
   font: normal 14px/14px "AvantGarde","helvetica", "arial";
@@ -64,13 +53,7 @@ a:link, a:visited {
 a:link, a:visited {
   text-decoration: none;
 }
-.clear {
-  zoom: 1;
-}
-.clear {
-  clear: both;
-}
-.clear {
+div {
   clear: both;
   display: block;
   overflow: hidden;
@@ -78,11 +61,12 @@ a:link, a:visited {
   width: 0;
   height: 0;
   float: none;
+  zoom: 1;
 }
-.clear:before, .clear:after {
+div:before, div:after {
   content: "";
   display: table;
 }
-.clear:after {
+div:after {
   clear: both;
 }

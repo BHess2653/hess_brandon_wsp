@@ -4,13 +4,10 @@ body {
   font-size: 11px;
   color: #707070;
 }
-div {
+main {
   display: block;
 }
-.showme {
-  display: block;
-}
-.featuredoff {
+main {
   background: #eee;
   width: 850px;
   height: 220px;
@@ -19,7 +16,7 @@ div {
   margin-bottom: 20px;
   position: relative;
 }
-.featuredoff {
+main {
   background: #eee;
   width: 850px;
   height: 220px;
@@ -43,19 +40,19 @@ body, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, in
 h2 {
   font-weight: bold;
 }
-.featuredoff h2 {
+main h2 {
   margin-bottom: 6px;
   color: #464646;
   font-size: 24px;
   font-weight: bold;
 }
-.featuredoff h2 {
+main h2 {
   margin-bottom: 6px;
   color: #464646;
   font-size: 24px;
   font-weight: bold;
 }
-.featuredoff h2 span {
+main h2 span {
   font-size: 12px;
   font-weight: 400;
   padding-left: 10px;
@@ -108,15 +105,6 @@ input[type="hidden" i], input[type="image" i], input[type="file" i] {
   top: 46px;
   left: 10px;
 }
-.ca-container {
-  background: #fff;
-  width: 660px;
-  height: 170px;
-  padding-top: 16px;
-  position: absolute;
-  top: 46px;
-  left: 10px;
-}
 .ca-nav span {
   background: url(http://www.gamestop.com/gs/merchincludes/homepage/devprod/img/menunav_prev.png) 0 0;
   width: 30px;
@@ -138,16 +126,16 @@ input[type="hidden" i], input[type="image" i], input[type="file" i] {
   left: auto;
   right: 0px;
 }
-.ca-wrapper {
+article {
   width: 600px;
   height: 170px;
   padding: 0;
   margin-left: 30px;
   position: relative;
-  overflow: hidden;
+/*  overflow: hidden;*/
   float: left;
 }
-.ca-item {
+article div {
   width: 200px;
   height: 170px;
   padding-left: 10px;
@@ -156,7 +144,7 @@ element.style {
   left: 0px;
   position: absolute;
 }
-.ca-item-main {
+article div div {
   width: 180px;
   height: 170px;
   margin: 0 10px;
@@ -171,7 +159,7 @@ a:link, a:visited {
 a:link, a:visited {
   text-decoration: none;
 }
-.featuredoff h2 {
+main h2 {
   margin-bottom: 6px;
   color: #464646;
   font-size: 24px;
@@ -188,13 +176,13 @@ a:link, a:visited {
 p {
   margin-bottom: 1em;
 }
-.featuredoff .viewmore {
+main aside {
   position: absolute;
   width: 180px;
   left: 690px;
   top: 18px;
 }
-.viewmore h3 {
+aside h3 {
   color: #464646;
   font-size: 18px !important;
   font-weight: bold;
@@ -212,32 +200,32 @@ h3 {
   -webkit-margin-end: 0px;
   font-weight: bold;
 }
-.viewmore ul {
+aside ul {
   margin: 4px 0 -4px 0;
 }
-.viewmore ul li {
+aside ul li {
   background: url(http://www.gamestop.com/gs/pages/storefront/home/devProd/img/viewmore_arrow.png) 9px 7px no-repeat;
   padding: 7px 0 6px 30px;
   font-size: 14px;
   font-weight: bold;
 }
-.showme {
+ul li {
   display: block;
 }
-.viewmore ul li a {
+aside ul li a {
   color: #306c9d !important;
   text-decoration: none !important;
 }
-.viewmore .offers-viewall {
+aside div {
   margin: 10px 48px;
 }
-.viewall-btn {
+aside div a {
   background: url(http://www.gamestop.com/gs/pages/storefront/home/devprod/img/viewall_button.png) 0 0;
   width: 74px;
   height: 20px;
   display: block;
 }
-.viewall-btn span {
+div a span {
   display: none;
 }
 .featurediv img {
