@@ -21,7 +21,7 @@ div {
   padding: 0;
 }
 .container_out {
-  width: 960px;
+  width: 880px; /* 960 */
   border: 14px solid rgba(0,0,0,.15);
   margin: 0 auto;
   clear: both;
