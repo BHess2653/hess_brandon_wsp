@@ -1,58 +1,36 @@
-.social--large {
-  margin-bottom: 1.07143em;
-  padding-top: .71429em;
-  padding-bottom: 1.42857em;
-  text-align: left;
-  background: #eee;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
+body {
+  font-size: 87.5%;
+  line-height: 1.71429;
+  text-align: left;
+  font-family: Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #3e3e3e;
+  overflow-y: scroll;
+  -ms-overflow-style: scrollbar;
+}
 
-
-
-.contain {
+section {
   max-width: 1120px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 3.25%;
   padding-left: 3.25%;
-}
-
-
-
-
-.row {
-  margin-bottom: -20px;
-}
-
-
-
-
-
-@media (min-width: 56.25em)
-.row-4.col-1-span-3>.col:nth-child(1), .row-4.col-2-span-3>.col:nth-child(2) {
-  width: 75%;
-}
-
-
-
-
-
-
-.row>.col {
+  background: #eee;
   display: inline-block;
-  vertical-align: top;
-  box-sizing: border-box;
-  width: 100%;
-  min-height: 1px;
   margin-bottom: 20px;
+
 }
 
-
-
-
-
-
-.text--medium, dl.properties dd {
+h2 {
   margin-top: .56522em;
   margin-bottom: .26087em;
   font-size: 1.64286em;
@@ -62,73 +40,28 @@
   font-weight: normal;
 }
 
-
-
-
-
-
 ul {
   list-style: none;
 }
 
-
-
-
-
-
-
-
-@media (min-width: 25.3125em)
-.social--large .footer-social-links li:nth-child(3n+1) {
-  clear: none;
-  display: inline-block;
-}
-@media (min-width: 13.75em)
-.social--large .footer-social-links li:nth-child(3n+1) {
-  clear: left;
-  display: block;
-}
-@media (min-width: 13.75em)
-.social--large .footer-social-links li:nth-child(2n+1) {
-  clear: none;
-  display: inline-block;
-}
-/*.social--large .footer-social-links li:nth-child(2n+1) {
-  clear: left;
-  display: block;
-}*/
-.social--large .footer-social-links li {
+li {
   float: left;
-  vertical-align: top;
-  display: inline-block;
   margin-right: .71429em;
   margin-bottom: 1.07143em;
-  line-height: 0;
 }
 
+/*a {
+  display: block;
+  width: 4.28571em;
+  height: 4.28571em;
+  line-height: 1;
+  color: #fff;
+  background-color: #1572a4;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* facebook */
-
-.social--large .footer-social-links li a.social-link.facebook {
-  background-color: #3b5a9a;
-}
-.social--large .footer-social-links li a.social-link {
+li a {
   display: block;
   width: 4.28571em;
   height: 4.28571em;
@@ -138,57 +71,8 @@ ul {
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
 }
-.icon {
-  display: inline-block;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-align: center;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-button, a {
-  text-decoration: none;
-  color: #1572a4;
-  cursor: pointer;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
-}
 
-.social--large .footer-social-links li a.social-link:after {
-  display: inline-block;
-  font-size: 42px;
-  vertical-align: middle;
-}
-.icon.icon--facebook:after {
-  content: "f";
-}
-.icon:after {
-  content: "";
-  font-family: wf_halo-icons_regular;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.social--large .footer-social-links li a.social-link:before {
+li a:before {
   content: "";
   display: inline-block;
   width: 0;
@@ -196,403 +80,79 @@ button, a {
   vertical-align: middle;
 }
 
+li a:after {
+  display: inline-block;
+  font-size: 42px;
+  vertical-align: middle;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.social--large .footer-social-links li a.social-link span {
+span {
   display: none;
   speak: normal;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.social--large .footer-social-links li a.social-link:after {
+.icon {
   display: inline-block;
-  font-size: 42px;
-  vertical-align: middle;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-align: center;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-.icon.icon--facebook:after {
+
+.icon:after {
+  content: "";
+  font-family: wf_halo-icons_regular;
+}
+
+#fb {
+  background-color: #3b5a9a;
+}
+
+#fb:after {
   content: "f";
 }
-.icon:after {
-  content: "";
-  font-family: wf_halo-icons_regular;
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Twitter */
-
-.social--large .footer-social-links li a.social-link.twitter {
+#twitter {
   background-color: #2ea7de;
 }
-.social--large .footer-social-links li a.social-link {
-  display: block;
-  width: 4.28571em;
-  height: 4.28571em;
-  line-height: 1;
-  color: #fff;
-  background-color: #1572a4;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
-}
-.icon {
-  display: inline-block;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-align: center;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-button, a {
-  text-decoration: none;
-  color: #1572a4;
-  cursor: pointer;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
-}
 
-.social--large .footer-social-links li a.social-link:after {
-  display: inline-block;
-  font-size: 42px;
-  vertical-align: middle;
-}
-.icon.icon--twitter:after {
+#twitter:after {
   content: "T";
 }
-.icon:after {
-  content: "";
-  font-family: wf_halo-icons_regular;
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Youtube */
-
-
-.social--large .footer-social-links li a.social-link.youtube {
+#yt {
   background-color: #df2e24;
 }
-.social--large .footer-social-links li a.social-link {
-  display: block;
-  width: 4.28571em;
-  height: 4.28571em;
-  line-height: 1;
-  color: #fff;
-  background-color: #1572a4;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
-}
-.icon {
-  display: inline-block;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-align: center;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-button, a {
-  text-decoration: none;
-  color: #1572a4;
-  cursor: pointer;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
+
+#yt:after {
+    content: "‣";
 }
 
-.social--large .footer-social-links li a.social-link.youtube:after {
-  font-size: 26px;
-}
-.social--large .footer-social-links li a.social-link:after {
-  display: inline-block;
-  font-size: 42px;
-  vertical-align: middle;
-}
-.icon.icon--youtube:after {
-  content: "‣";
-}
-.icon:after {
-  content: "";
-  font-family: wf_halo-icons_regular;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Twitch */
-
-.social--large .footer-social-links li a.social-link.twitch {
+#twitch {
   background-color: #684597;
 }
-.social--large .footer-social-links li a.social-link {
-  display: block;
-  width: 4.28571em;
-  height: 4.28571em;
-  line-height: 1;
-  color: #fff;
-  background-color: #1572a4;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
-}
-.icon {
-  display: inline-block;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-align: center;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-button, a {
-  text-decoration: none;
-  color: #1572a4;
-  cursor: pointer;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
-}
 
-.social--large .footer-social-links li a.social-link.twitch:after {
-  margin-bottom: -1px;
-  font-size: 22px;
-}
-.social--large .footer-social-links li a.social-link:after {
-  display: inline-block;
-  font-size: 42px;
-  vertical-align: middle;
-}
-.icon.icon--twitch:after {
+#twitch:after {
   content: "t";
 }
-.icon:after {
-  content: "";
-  font-family: wf_halo-icons_regular;
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* instagram */
-
-.social--large .footer-social-links li a.social-link.instagram {
+#insta {
   background-color: #363e46;
 }
-.social--large .footer-social-links li a.social-link {
-  display: block;
-  width: 4.28571em;
-  height: 4.28571em;
-  line-height: 1;
-  color: #fff;
-  background-color: #1572a4;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
-}
-.icon {
-  display: inline-block;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-align: center;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-button, a {
-  text-decoration: none;
-  color: #1572a4;
-  cursor: pointer;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
-}
 
-.social--large .footer-social-links li a.social-link:after {
-  display: inline-block;
-  font-size: 42px;
-  vertical-align: middle;
-}
-.icon.icon--instagram:after {
+#insta:after {
   content: "";
 }
-.icon:after {
-  content: "";
-  font-family: wf_halo-icons_regular;
+
+#forum {
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* forum */
-
-.social--large .footer-social-links li a.social-link {
-  display: block;
-  width: 4.28571em;
-  height: 4.28571em;
-  line-height: 1;
-  color: #fff;
-  background-color: #1572a4;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
-}
-.icon {
-  display: inline-block;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-align: center;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-button, a {
-  text-decoration: none;
-  color: #1572a4;
-  cursor: pointer;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
-}
-
-.social--large .footer-social-links li a.social-link:after {
-  display: inline-block;
-  font-size: 42px;
-  vertical-align: middle;
-}
-.icon.icon--forums:after {
+#forum:after {
   content: "✍";
 }
-.icon:after {
-  content: "";
-  font-family: wf_halo-icons_regular;
-}
-
-
-
