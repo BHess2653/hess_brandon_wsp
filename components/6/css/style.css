@@ -27,6 +27,15 @@ h2 {
   display:inline-block;
 }
 
+h3 {
+
+  font-size: 14px;
+  font-weight: bold;
+  color: #B22222;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
 a:link, a:visited {
   text-decoration: none;
 }
@@ -63,10 +72,12 @@ article section {
 }
 
 p {
+  font-size:13px;
+  color:#444;
   margin-top: 0;
 }
 
-p a {
+span a {
     color: #1A539A;
     text-transform: none;
 }
