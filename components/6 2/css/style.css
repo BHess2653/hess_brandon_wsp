@@ -1,12 +1,27 @@
 body {
   -webkit-font-smoothing: antialiased;
 }
-
 body, input, select, textarea, .fauxInput, .submit, .button, td.content, a.nav, a, a.user, comment, .post {
   font: 12px Arial, Helvetica, sans-serif;
 }
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+}
 
-h1 {
+a:link, a:visited {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+.titleLine {
   background: white;
   border: 0;
   border-bottom: 4px solid #EEE;
@@ -19,98 +34,7 @@ h1 {
   cursor: default;
   margin-bottom: 5px;
 }
-
-h2 {
-  color: #1A539A;
-  font-size: 13px;
-  margin-top: 0;
-  display:inline-block;
-}
-
-a:link, a:visited {
-  text-decoration: none;
-}
-a {
-    padding: 0 0 0 5px;
-  -webkit-box-sizing: border-box;
-  font-size: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #B22222;
-}
-
-#link {
-  text-decoration: none !important;
-  color: #B22222;
-  font-weight: bold;
-  display: inline-block;
-  background: #FBF3F3;
-  border: 1px solid #F9EFEF;
-  padding: 2px;
-  -webkit-border-radius: 2px;
-}
-
-article {
-  border-bottom: 1px solid #ccc;
-  padding: 6px 0;
-  padding-bottom: 20px;
-}
-
-article img,
-article section {
-  display:inline-block;
-  vertical-align:top;
-}
-
-p {
-  margin-top: 0;
-}
-
-p a {
-    color: #1A539A;
-    text-transform: none;
-}
-
-img {
-    border-spacing: 2px;
-    width: 80px;
-    /*padding-bottom:8px;*/
-    padding-left:0;
-}
-
-section {
-  padding-left: 20px;
-  padding-right: 5px;
-  /*padding-top: 8px;*/
-  padding-bottom: 8px;
-  font-size: 12px;
-  line-height: 150%;
-  color: #444;
-}
-
-span {
-  display:inline-block;
-  vertical-align:bottom;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*table {
-  display: table;
-  border-collapse: separate;
-  border-spacing: 2px;
-  border-color: gray;
-}*/
-/*.streamIndividual {
+.streamIndividual {
   border-bottom: 1px solid #ccc;
   background-color: #fff;
   transition: background-color 0.5s linear;
@@ -174,5 +98,5 @@ a.modTitleLink {
   white-space: nowrap;
   overflow: hidden;
   text-align: left;
-}*/
+}
 
