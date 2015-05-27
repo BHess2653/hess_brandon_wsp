@@ -25,13 +25,16 @@ body {
 	line-height: 1.5;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #272727;
-	background: rgb(247,251,252);
+	background: url(http://neirstavern.com/wp-content/uploads/2013/09/website-background-brick-wall.jpg) repeat-y;
+	background-size: contain;
+	background-color: #000000;
+/*	background: rgb(247,251,252);
 	background: -moz-linear-gradient(top,  rgba(247,251,252,1) 0%, rgba(217,237,242,1) 40%, rgba(173,217,228,1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,251,252,1)), color-stop(40%,rgba(217,237,242,1)), color-stop(100%,rgba(173,217,228,1)));
 	background: -webkit-linear-gradient(top,  rgba(0, 0, 0, 1) 0%,rgba(108, 40, 40, 1) 50%,rgba(103, 7, 7, 1) 100%);
 	background: -o-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);
 	background: -ms-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);
-	background: linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);
+	background: linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);*/
 }
 
 header, footer, article, section, nav, {
