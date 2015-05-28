@@ -40,7 +40,9 @@ a:link, a:visited {
   text-decoration: none;
 }
 a {
-    padding: 0 0 0 5px;
+  padding-left: 2px;
+  padding-top: 1px;
+  padding: 0 0 0 5px;
   -webkit-box-sizing: border-box;
   font-size: 10px;
   text-transform: uppercase;
@@ -66,7 +68,7 @@ article {
 }
 
 article img,
-article section {
+article div {
   display:inline-block;
   vertical-align:top;
 }
@@ -84,12 +86,13 @@ span a {
 
 img {
     border-spacing: 2px;
+    height:80px;
     width: 80px;
     /*padding-bottom:8px;*/
     padding-left:0;
 }
 
-section {
+div {
   padding-left: 20px;
   padding-right: 5px;
   /*padding-top: 8px;*/
