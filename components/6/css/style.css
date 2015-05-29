@@ -74,6 +74,7 @@ article div {
 }
 
 p {
+  max-width: 600px;
   font-size:13px;
   color:#444;
   margin-top: 0;
