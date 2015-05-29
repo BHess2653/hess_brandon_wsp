@@ -25,9 +25,8 @@ body {
 	line-height: 1.5;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #272727;
-	background: url(http://neirstavern.com/wp-content/uploads/2013/09/website-background-brick-wall.jpg) repeat-y;
+	background: #000000 url(../images/wallpaper.jpg) no-repeat;
 	background-size: contain;
-	background-color: #000000;
 /*	background: rgb(247,251,252);
 	background: -moz-linear-gradient(top,  rgba(247,251,252,1) 0%, rgba(217,237,242,1) 40%, rgba(173,217,228,1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,251,252,1)), color-stop(40%,rgba(217,237,242,1)), color-stop(100%,rgba(173,217,228,1)));
@@ -352,4 +351,102 @@ img.right {
 	padding-bottom: 30px;
 	margin-bottom: 30px;
 	border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------
+
+    	Timed guy
+-------------------------------------------*/
+figure#timer-animation {
+	z-index: 999999999999;
+	position: fixed;
+	top: 80px;
+	left: -200px;
+	text-align: center;
+	-moz-animation-name: animation-plok-figure;
+	-moz-animation-duration: 3600s;
+	-moz-animation-delay: 4s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-webkit-animation-name: animation-plok-figure;
+	-webkit-animation-duration: 3600s;
+	-webkit-animation-delay: 4s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-o-animation-name: animation-plok-figure;
+	-o-animation-duration: 3600s;
+	-o-animation-delay: 4s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function: linear;
+	animation-name: animation-plok-figure;
+	animation-duration: 3600s;
+	animation-delay: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+figure#timer-animation img {
+	margin-top: 0;
+	-moz-animation-name: animation-plok-img;
+	-moz-animation-duration: 2500ms;
+	-moz-animation-delay: 0s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+	-webkit-animation-name: animation-plok-img;
+	-webkit-animation-duration: 2500ms;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-o-animation-name: animation-plok-img;
+	-o-animation-duration: 2500ms;
+	-o-animation-delay: 0s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction: alternate;
+	animation-name: animation-plok-img;
+	animation-duration: 2500ms;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@-moz-keyframes animation-plok-img {
+	from {margin-top: 20px}
+	to {margin-top: 80px;}
+}
+@-moz-keyframes animation-plok-figure {
+	0% {left: -200px;}
+	0.35% {left: 1414px;}
+	100% {left: 1414px;}
+}
+@-webkit-keyframes animation-plok-img {
+	from {margin-top: 20px}
+	to {margin-top: 80px;}
+}
+@-webkit-keyframes animation-plok-figure {
+	0% {left: -200px;}
+	0.35% {left: 1414px;}
+	100% {left: 1414px;}
+}
+@-o-keyframes animation-plok-img {
+	from {margin-top: 20px}
+	to {margin-top: 80px;}
+}
+@-o-keyframes animation-plok-figure {
+	0% {left: -200px;}
+	0.35% {left: 1414px;}
+	100% {left: 1414px;}
+}
+@keyframes animation-plok-img {
+	from {margin-top: 20px}
+	to {margin-top: 80px;}
+}
+@keyframes animation-plok-figure {
+	0% {left: -200px;}
+	0.35% {left: 1414px;}
+	100% {left: 1414px;}
 }
