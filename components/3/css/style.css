@@ -1,102 +1,46 @@
-body {
-  background: #FBFBFB;
+body, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+section {
   font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
-  font-size: 11px;
-  color: #707070;
-}
-main {
-  display: block;
-}
-main {
-  background: #eee;
-  width: 850px;
-  height: 220px;
-  padding: 10px;
-  margin-left: 5px;
-  margin-bottom: 20px;
-  position: relative;
-}
-main {
   background: #eee;
   width: 850px;
   height: 220px;
   padding: 10px;
   margin: 30px 45px;
   position: relative;
+  display: block;
 }
+
 h2 {
   display: block;
   font-size: 1.5em;
-  -webkit-margin-before: 0.83em;
-  -webkit-margin-after: 0.83em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
   font-weight: bold;
 }
-body, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, dl, dt, dd {
-  margin: 0;
-  padding: 0;
-}
-h2 {
-  font-weight: bold;
-}
-main h2 {
+section h2 {
   margin-bottom: 6px;
   color: #464646;
   font-size: 24px;
   font-weight: bold;
 }
-main h2 {
-  margin-bottom: 6px;
-  color: #464646;
-  font-size: 24px;
+div h2 {
+  font-size: 12px !important;
   font-weight: bold;
+  color: #095490;
 }
-main h2 span {
+section h2 span {
   font-size: 12px;
   font-weight: 400;
   padding-left: 10px;
 }
-input, textarea, keygen, select, button, meter, progress {
-  -webkit-writing-mode: horizontal-tb;
-}
-input, textarea, keygen, select, button {
-  margin: 0em;
-  font: normal normal normal 11px/normal 'Lucida Grande';
-  text-rendering: auto;
-  color: initial;
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
-  text-align: start;
-}
-input, input[type="password" i], input[type="search" i] {
-  -webkit-appearance: textfield;
-  padding: 1px;
-  background-color: white;
-  border: 2px inset;
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
-  -webkit-rtl-ordering: logical;
-  -webkit-user-select: text;
-  cursor: auto;
-}
-input[type="hidden" i] {
-  display: none;
-}
-input[type="hidden" i], input[type="image" i], input[type="file" i] {
-  -webkit-appearance: initial;
-  padding: initial;
-  background-color: initial;
-  border: initial;
-}
-.ca-container {
+
+article {
+  width: 630px;
+  height: 170px;
+  padding: 0;
+  position: relative;
   background: #fff;
   width: 660px;
   height: 170px;
@@ -105,7 +49,101 @@ input[type="hidden" i], input[type="image" i], input[type="file" i] {
   top: 46px;
   left: 10px;
 }
-.ca-nav span {
+
+article div {
+  width: 180px;
+  height: 170px;
+  margin: 0 10px;
+  font-size: 11px !important;
+  line-height: 12px;
+  float: left;
+}
+
+a:link, a:visited {
+  color: #095490;
+  text-decoration: none;
+}
+
+p {
+  color: #707070;
+  width: 180px;
+  margin-top: 5px;
+  margin-bottom: 1em;}
+
+section aside {
+  position: absolute;
+  width: 180px;
+  left: 690px;
+  top: 18px;
+}
+aside h3 {
+  color: #464646;
+  font-size: 18px !important;
+  font-weight: bold;
+  margin: 0 !important;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+aside ul {
+  margin: 4px 0 -4px 0;
+}
+
+aside ul li {
+  background: url(http://www.gamestop.com/gs/pages/storefront/home/devProd/img/viewmore_arrow.png) 9px 7px no-repeat;
+  padding: 7px 0 6px 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+ul li {
+  display: block;
+}
+
+aside ul li a {
+  color: #306c9d !important;
+  text-decoration: none !important;
+}
+
+aside button {
+  padding: 0;
+  margin: 10px 48px;
+}
+
+aside button a {
+  background: url(http://www.gamestop.com/gs/pages/storefront/home/devprod/img/viewall_button.png) 0 0;
+  width: 74px;
+  height: 20px;
+  display: block;
+}
+
+img {
+  border: 0;
+  margin-top: 6px;
+  max-width: 160px;
+  max-height: 100px;
+}
+
+#next {
+  background: url(http://www.gamestop.com/gs/merchincludes/homepage/devprod/img/menunav_next.png) 0 0;
+  width: 30px;
+  height: 60px;
+  top: 100px;
+  left: auto;
+  right: 0px;
+  position: absolute;
+  margin-top: -60px;
+  text-indent: -9000px;
+  opacity: 0.7;
+  cursor: pointer;
+  z-index: 100;
+}
+
+#prev {
   background: url(http://www.gamestop.com/gs/merchincludes/homepage/devprod/img/menunav_prev.png) 0 0;
   width: 30px;
   height: 60px;
@@ -118,121 +156,7 @@ input[type="hidden" i], input[type="image" i], input[type="file" i] {
   cursor: pointer;
   z-index: 100;
 }
-.ca-nav span.ca-nav-next {
-  background: url(http://www.gamestop.com/gs/merchincludes/homepage/devprod/img/menunav_next.png) 0 0;
-  width: 30px;
-  height: 60px;
-  top: 100px;
-  left: auto;
-  right: 0px;
-}
-article {
-  width: 600px;
-  height: 170px;
-  padding: 0;
-  margin-left: 30px;
-  position: relative;
-/*  overflow: hidden;*/
-  float: left;
-}
-article div {
-  width: 200px;
-  height: 170px;
-  padding-left: 10px;
-}
-element.style {
-  left: 0px;
-  position: absolute;
-}
-article div div {
-  width: 180px;
-  height: 170px;
-  margin: 0 10px;
-  font-size: 11px !important;
-  line-height: 12px;
-  position: absolute;
-  overflow: hidden;
-}
-a:link, a:visited {
-  color: #095490;
-}
-a:link, a:visited {
-  text-decoration: none;
-}
-main h2 {
-  margin-bottom: 6px;
-  color: #464646;
-  font-size: 24px;
-  font-weight: bold;
-}
-.featurediv h2 {
-  font-size: 12px !important;
-  font-weight: bold;
-  margin: 6px 0 0 0 !important;
-}
-.featurediv p {
-  margin-top: 5px;
-}
-p {
-  margin-bottom: 1em;
-}
-main aside {
-  position: absolute;
-  width: 180px;
-  left: 690px;
-  top: 18px;
-}
-aside h3 {
-  color: #464646;
-  font-size: 18px !important;
-  font-weight: bold;
-  margin: 0 !important;
-}
-h3 {
-  font-weight: bold;
-}
-h3 {
-  display: block;
-  font-size: 1.17em;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  font-weight: bold;
-}
-aside ul {
-  margin: 4px 0 -4px 0;
-}
-aside ul li {
-  background: url(http://www.gamestop.com/gs/pages/storefront/home/devProd/img/viewmore_arrow.png) 9px 7px no-repeat;
-  padding: 7px 0 6px 30px;
-  font-size: 14px;
-  font-weight: bold;
-}
-ul li {
-  display: block;
-}
-aside ul li a {
-  color: #306c9d !important;
-  text-decoration: none !important;
-}
-aside div {
-  margin: 10px 48px;
-}
-aside div a {
-  background: url(http://www.gamestop.com/gs/pages/storefront/home/devprod/img/viewall_button.png) 0 0;
-  width: 74px;
-  height: 20px;
-  display: block;
-}
-div a span {
-  display: none;
-}
-.featurediv img {
-  margin-top: 6px;
-  max-width: 160px;
-  max-height: 100px;
-}
-img {
-  border: 0;
+
+main {
+  padding-left:  40px;
 }
