@@ -1,8 +1,8 @@
-body {
+section {
   -webkit-font-smoothing: antialiased;
 }
 
-body, input, select, textarea, .fauxInput, .submit, .button, td.content, a.nav, a, a.user, comment, .post {
+section, input, select, textarea, .fauxInput, .submit, .button, td.content, a.nav, a, a.user, comment, .post {
   font: 12px Arial, Helvetica, sans-serif;
 }
 
@@ -50,7 +50,7 @@ a {
   color: #B22222;
 }
 
-#link {
+#role {
   text-decoration: none !important;
   color: #B22222;
   font-weight: bold;

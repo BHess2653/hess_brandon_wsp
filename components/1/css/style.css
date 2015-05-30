@@ -4,7 +4,7 @@ section {
   width: 870px;
   height: 305px;
 }
-div {
+h1 {
   top: 0px;
   left: 0px;
   overflow: hidden;
@@ -21,9 +21,7 @@ a:-webkit-any-link {
   text-decoration: underline;
   cursor: auto;
 }
-div img {
-  border: none;
-}
+
 img {
   border: 0;
 }
@@ -41,7 +39,7 @@ aside {
   z-index: 1;
   overflow: hidden;
 }
-div {
+h1 {
   display: block;
 }
 ul {
@@ -83,13 +81,11 @@ ul li img {
   width: 120px;
   height: 51px;
 }
-div img {
-  border: none;
-}
+
 img {
   border: 0;
 }
-li div {
+li h1 {
   font-size: 11px;
   font-family: "helvetica", "arial", "sans-serif";
   font-weight: normal;

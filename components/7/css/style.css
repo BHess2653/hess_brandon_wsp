@@ -21,12 +21,14 @@ div {
   padding: 0;
 }
 section {
-  width: 880px; /* 960 */
+  width: 880px;
   border: 14px solid rgba(0,0,0,0.86);
   margin: 0 auto;
   clear: both;
   background: #f5f5f5;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+
 
 a {
   text-decoration: none;
@@ -49,10 +51,10 @@ li {
   -ms-zoom: 1;
   zoom: 1;
 }
-li:before, li:after {
+/*li:before, li:after {
   content: "";
   display: table;
-}
+}*/
 article {
   border-bottom: 1px solid #E1E1E1;
   height: 115px;
@@ -62,9 +64,7 @@ article {
   position: relative;
   width: 404px;
 }
-section {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
+
 a {
   text-decoration: none;
   outline: 0;
@@ -107,7 +107,7 @@ strong {
 img {
   max-width: 100%;
 }
-article section {
+article header {
   border: 0;
   padding: 0;
   font-size: 14px;
